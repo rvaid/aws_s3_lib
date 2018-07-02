@@ -1,0 +1,42 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>File Browser</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="../stylesheets/doclib.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  </head>
+  <title>file browser</title>
+<body class="row" style="margin-left: 100px;margin-top: 100px">
+   <div class="filemanager">
+      <div class="create" style="float: right;">
+         <!-- <button id='createfol' type='button' >DELETE</button> -->
+         <button type="button" id="foldercreate">CREATE FOLDER </button>
+         <input type='text' name='foldername' placeholder='entr folder name here...'>
+         <button id='createfol' type='button' >CREATE</button>
+         <button type="button" id="filecreate">CREATE FILE</button>
+         <input type='text' name='filename' placeholder='entr file name here...' >
+         <button id='createfil' type='button' >CREATE</button>
+      </div>
+      <br/>
+      <div class="breadcrumbs"></div>
+      <br/>
+      <!-- <ul class="data"></ul> -->
+      <div class="card-deck">
+         <!-- <div class="nothingfound">
+            <div class="nofiles"></div>
+            <span>No files here.</span>
+            </div> -->
+      </div>
+   </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    
+    <script src="../javascripts/doclib.js"></script>
+  </body>
+</html>
